@@ -130,6 +130,12 @@ h3 {
     font-size: 14px;
     letter-spacing: .1em;
     text-transform: uppercase;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.17s, 0.17s;
+    transition-property: color, background-color;
+    transition-timing-function: ease-in-out, ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .dropdown-content a:hover {
